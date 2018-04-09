@@ -1,5 +1,5 @@
 {
-  "name": "@joachimhb/my-linting-rules",
+  "name": "@joachimhb/eslint-config-jhb",
   "version": "0.0.2",
   "description": "Just my eslint rules",
   "main": "server.json",
@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joachimhb/my-linting-rules.git"
+    "url": "git+https://github.com/joachimhb/eslint-config-jhb.git"
   },
   "bugs": {
-    "url": "https://github.com/joachimhb/my-linting-rules/issues"
+    "url": "https://github.com/joachimhb/eslint-config-jhb/issues"
   },
-  "homepage": "https://github.com/joachimhb/my-linting-rules#readme"
+  "homepage": "https://github.com/joachimhb/eslint-config-jhb#readme"
 }
