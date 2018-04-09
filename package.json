@@ -1,5 +1,5 @@
 {
-  "name": "@joachimhb/my-eslint-config",
+  "name": "@joachimhb/my-linting-rules",
   "version": "0.0.1",
   "description": "Just my eslint rules",
   "main": "server.json",
@@ -14,5 +14,16 @@
     "roboter-server": "0.16.0"
   },
   "author": "Joachim Häcker-Becker",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joachimhb/my-linting-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joachimhb/my-linting-rules/issues"
+  },
+  "homepage": "https://github.com/joachimhb/my-linting-rules#readme"
 }
