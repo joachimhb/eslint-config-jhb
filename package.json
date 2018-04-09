@@ -1,6 +1,6 @@
 {
   "name": "@joachimhb/my-linting-rules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just my eslint rules",
   "main": "server.json",
   "dependencies": {
