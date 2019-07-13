@@ -39,6 +39,7 @@ app.use(bodyParser.json());
 
 app.set('json spaces', 2);
 
+// eslint-disable-next-line no-unused-vars
 app.get('/status', (req, res, next) => {
   const bathTemp = _.get(bathControl.status, ['bath', 'temperature'], {});
   const bathHumidity = _.get(bathControl.status, ['bath', 'humidity'], {});
@@ -55,6 +56,7 @@ app.get('/status', (req, res, next) => {
   res.json(human);
 });
 
+// eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
   logger.error(err.message);
 });
