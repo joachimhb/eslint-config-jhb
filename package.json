@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "babel-preset-env": "1.7.0",
-    "roboter": "6.1.0",
+    "roboter": "13.2.1",
     "roboter-server": "0.16.0"
   },
   "author": "Joachim Häcker-Becker",
